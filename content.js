@@ -6,7 +6,7 @@ const portfolio = {
   title: "Python 开发与数据采集",
   summary: "用代码把开放数据变成可理解的信息。我专注网页采集、数据清洗与自动化流程。",
   status: "持续充电中",
-  location: "中国 · 北京",
+  location: "中国 · 河南",
   email: "413048524@qq.com",
   github: "https://github.com/",
   csdn: "https://www.csdn.net/",
@@ -23,10 +23,10 @@ const portfolio = {
     { category: "creative", number: "04", title: "拼多多砍一刀转盘", description: "拼多多风格的趣味转盘抽奖游戏，模拟「先甜后苦」的砍一刀机制，充满戏剧性互动。", tags: ["JavaScript", "Animation", "Game"], link: "Portfolio/拼多多一刀暴富.html", accent: "yellow", bgImage: "Portfolio/bgimgs/拼多多砍一刀.png" },
     { category: "creative", number: "05", title: "缘分检测器", description: "心动指数仪表盘，输入两人信息即可生成浪漫匹配度报告，搭配霓虹视觉与动态粒子背景。", tags: ["CSS3", "Animation", "Interactive"], link: "Portfolio/缘分检测器.html", accent: "pink", bgImage: "Portfolio/bgimgs/缘分检测器.png" },
     { category: "creative", number: "06", title: "像素点摄影平台", description: "汇聚高清摄影作品的分享平台页面，支持图片浏览、分类筛选与作者主页展示。", tags: ["HTML5", "CSS3", "Layout"], link: "Portfolio/我的网页.html", accent: "mint", bgImage: "Portfolio/bgimgs/像素点摄影平台.png" },
-    { category: "crawler", number: "07", title: "开阳云音乐", description: "爬虫采集到的音乐制作的仿网易云风格在线音乐播放器，支持歌单切换、播放控制、进度拖拽与歌词展示。", tags: ["JavaScript", "Audio API", "UI Design"], link: "Portfolio/开阳云音乐网站.html", accent: "blue", bgImage: "Portfolio/bgimgs/开阳云音乐.png" },
+    { category: "crawler", number: "07", title: "学龙云音乐", description: "爬虫采集到的音乐制作的仿网易云风格在线音乐播放器，支持歌单切换、播放控制、进度拖拽与歌词展示。", tags: ["JavaScript", "Audio API", "UI Design"], link: "Portfolio/开阳云音乐网站.html", accent: "blue", bgImage: "Portfolio/bgimgs/开阳云音乐.png" },
     { category: "creative", number: "08", title: "英雄盲盒十连抽", description: "游戏风格英雄盲盒抽卡模拟器，十连抽动画配合角色档案卡展示与存档效果。", tags: ["JavaScript", "Animation", "Game"], link: "Portfolio/盲盒数据保存_英雄十连抽存档效果图.html", accent: "yellow", bgImage: "Portfolio/bgimgs/英雄盲盒.png" },
     { category: "creative", number: "09", title: "今日星座运势罗盘", description: "交互式星座运势罗盘，点选星座即可查看当日运势详情，搭配星空粒子与渐变视觉动效。", tags: ["CSS3", "Animation", "Interactive"], link: "Portfolio/今日星座运势罗盘.html", accent: "cyan", bgImage: "Portfolio/bgimgs/星座运势罗盘.png" },
-    { category: "creative", number: "10", title: "3D 回忆照片墙", description: "Three.js 驱动的 3D 照片回忆墙，照片悬浮旋转排列，支持鼠标拖拽旋转与滚轮缩放视角。", tags: ["Three.js", "3D", "WebGL"], link: "Portfolio/照片回忆墙/照片墙.html", accent: "coral", bgImage: "Portfolio/bgimgs/3D照片墙.png" },
+    { category: "creative", number: "10", title: "学龙回忆照片墙", description: "Three.js 驱动的 3D 照片回忆墙，照片悬浮旋转排列，支持鼠标拖拽旋转与滚轮缩放视角。", tags: ["Three.js", "3D", "WebGL"], link: "Portfolio/照片回忆墙/照片墙.html", accent: "coral", bgImage: "Portfolio/bgimgs/3D照片墙.png" },
     { category: "crawler", number: "11", title: "热歌短视频工坊", description: "爬虫采集到的音视频后，在线短视频生成工具，支持歌词编辑、霓虹风格选择与实时预览，将音乐创意与视觉动效融为一体。", tags: ["Requests", "xpath", "json"], link: "Portfolio/短视频生成器.html", accent: "pink", bgImage: "Portfolio/bgimgs/短视频工坊.png" },
     { category: "creative", number: "12", title: "Python 自我介绍 RAP 舞台", description: "赛博朋克风格的说唱舞台页面，用霓虹视效和节拍动画呈现 Python 学习旅程，支持键盘互动与光效切换。", tags: ["HTML5", "CSS3", "Animation"], link: "Portfolio/RAP舞台_HTML外化展示.html", accent: "mint", bgImage: "Portfolio/bgimgs/Python RAP舞台.png" },
     { category: "automation", number: "13", title: "抖音点赞工具", description: "使用python自动化完成的抖音点赞工具，能完成自动点赞自动收藏等操作，可以批量完成。", tags: ["python", "Drissionpage", "xpath"], link: "#", accent: "mint", bgImage: "Portfolio/抖音点赞工具.png" },
@@ -34,7 +34,6 @@ const portfolio = {
     { category: "creative", number: "15", title: "文章搭建模版", description: "各种热门类型文章的搭建模版，包括但不限于技术博客、学习路线、技术介绍等。", tags: ["csdn", "文章模版"], link: "Portfolio/个人文章搭建模版.html", accent: "mint", bgImage: "Portfolio/bgimgs/csdn.png"},
     { category: "crawler", number: "16", title: "贝壳二手房数据采集", description: "爬虫采集贝壳二手房数据，保存Excel文件", tags: ["requests", "xpath","反爬策略"], link: "Portfolio/贝壳二手房/index.html", accent: "mint", bgImage: "Portfolio/bgimgs/贝壳二手房.png"},
     { category: "analysis", number: "17", title: "csv自动化大屏", description: "csv数据可视化大屏，支持数据筛选、图表切换。", tags: ["pandas", "pyecharts","Excel"], link: "Portfolio/csv自动化大屏/CSV自动大屏.html", accent: "coral", bgImage: "Portfolio/bgimgs/数据大屏.png"},
-    { category: "creative", number: "18", title: "炫酷项目展示", description: "AIGC技术项目展示，展示AIGC技术项目，包括但不限于AI绘画、AI写作、AI编程等。", tags: ["AIGC", "提示词","python"], link: "Portfolio/炫酷项目展示.html", accent: "coral", bgImage: "Portfolio/bgimgs/AIGC.png"},
-
+    
   ]
 };
